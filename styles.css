@@ -5,6 +5,10 @@ body {
   padding-top: 50px;
 }
 
+p {
+ color: WhiteSmoke; 
+}
+
 a:link {
   color: orange;
   text-decoration: none;
