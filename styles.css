@@ -7,13 +7,17 @@ body {
 
 a:link {
   color: orange;
+  text-decoration: none;
 }
 a:visited {
     color: red;
+  text-decoration: none;
 }
 a:hover {
   color: w3-food-lime;
+  text-decoration: underline;
 }
 a:active {
   color: w3-food-kiwi;
+  text-decoration: underline;
 }
