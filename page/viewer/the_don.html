@@ -4,6 +4,25 @@
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
   </head>
   <body style="margin : 0px; overflow: hidden;">
+
+    <model-viewer src="https://raw.githubusercontent.com/itsthehawke/augmented/main/asset/donny.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+    </model-viewer>
+    
+  </body>
+</html>
+
+
+<!--
+
     <model-viewer alt="flower" src="https://raw.githubusercontent.com/itsthehawke/augmented/main/asset/donny.glb" 
                ar
                  ar-modes="webxr scene-viewer quick-look"
@@ -11,5 +30,5 @@
                  shadow-intensity="1"
                  camera-controls touch-action="pan-y">
     </model-viewer>
-  </body>
-</html>
+
+-->
