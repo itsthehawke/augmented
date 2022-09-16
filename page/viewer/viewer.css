@@ -1,5 +1,5 @@
 body {
-  background-color: LightSlateGray;
+  background-color: DimGray;
   font-family: "Monaco", "Courier New", monospace;
   text-align: center;
   margin: 0;
@@ -8,5 +8,5 @@ body {
 
 model-viewer {
   margin: 0;
-  height: 100%;
+  width: auto;
 }
