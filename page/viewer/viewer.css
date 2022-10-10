@@ -12,7 +12,7 @@ model-viewer {
   height: 80vh;
 }
 
-#ar-button {
-  width: 150px;
-  height: 150px;
+model-viewer::part(default-ar-button) {
+  width: 75px;
+  height: 75px;
 }
