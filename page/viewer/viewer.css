@@ -13,6 +13,6 @@ model-viewer {
 }
 
 model-viewer::part(default-ar-button) {
-  width: 75px;
-  height: 75px;
+  width: 150px;
+  height: 150px;
 }
